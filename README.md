@@ -20,10 +20,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-
 # 📖 Math Magicians React app <a name="about-project"></a>
-<br>
 
+<br>
 
 <br>
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:<br>
@@ -34,8 +33,8 @@
 <br>
 
 ## 🛠 Built With <a name="built-with"></a>
-<br>
 
+<br>
 
   <summary>Page was built using React</summary>
 
@@ -46,26 +45,27 @@
 <br>
 
 - **Project is created using React**
-- **Easu to reuse components for future projects**
-
+- **Easy to reuse components for future projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 <br>
 
 - [Click me to view deployed project!](this project will be deployed in near future)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
+
 <br>
 
 A great project whith a lot of modules, which can be used for other projects in the future.
 
 To get a local copy up and running, follow these steps:
 <br>
+
 - Choose a directory
 - Open a Terminal
 - write git clone https://github.com/agneta1991/math-magicians
@@ -74,10 +74,9 @@ To get a local copy up and running, follow these steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Author <a name="authors"></a>
-<br>
 
+<br>
 
 👤 **Agneta Pupienyte**
 
@@ -85,30 +84,26 @@ To get a local copy up and running, follow these steps:
 - Twitter: [@twitterhandle](https://twitter.com/pupienytea)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/agneta-pupienyte-124a27256/?originalSubdomain=lt)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🔭 Future Features <a name="future-features"></a>
+
 <br>
 
 -**In the future CSS transitions & animation will be added to the page, to have more inviting / interactive vibe for the user**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>Contributions, issues, and feature requests are welcome!
+
 <br>
 
 Feel free to check the [issues page](https://github.com/agneta1991/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## ⭐️ Show your support <a name="support"></a>
+
 <br>
 
 If you like my page please show your support and give this page a star!
@@ -116,12 +111,10 @@ If you like my page please show your support and give this page a star!
 <br>
 [![Star](https://img.shields.io/github/stars/agneta1991/math-magicians?style=social)](https://github.com/agneta1991/math-magicians)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 <br>
 
 <br>
