@@ -1,10 +1,6 @@
 function Calculator() {
-  return (
-    <div className="calc">
-      <div className="screen">
-        <span>0</span>
-        0
-      </div>
+  function ButtonDiv() {
+    return (
       <div className="btnDiv">
         <button type="button" className="operator">AC</button>
         <button type="button" className="operator">+/-</button>
@@ -26,6 +22,16 @@ function Calculator() {
         <button type="button" className="number">.</button>
         <button type="button" className="operator equal">=</button>
       </div>
+    );
+  }
+
+  return (
+    <div className="calc">
+      <div className="screen">
+        <span>0</span>
+        0
+      </div>
+      <ButtonDiv />
     </div>
   );
 }
