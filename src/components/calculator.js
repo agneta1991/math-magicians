@@ -5,7 +5,7 @@ function Calculator() {
         <button type="button" className="operator">AC</button>
         <button type="button" className="operator">+/-</button>
         <button type="button" className="operator">%</button>
-        <button type="button" className="operator">+</button>
+        <button type="button" className="operator">/</button>
         <button type="button" className="number">7</button>
         <button type="button" className="number">8</button>
         <button type="button" className="number">9</button>
