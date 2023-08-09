@@ -1,18 +1,33 @@
+import React, { useState } from 'react';
 import ButtonDiv from './buttonsdiv';
+import calculate from '../logic/calculate';
 
 function Calculator() {
-  return (
+  const [calculatorState, setCalculatorState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
+  const handleClick = (value) => {
+    const updatedState = calculate(calculatorState, value);
+    setCalculatorState(updatedState);
+  };
+
+  return (
     <div className="calc">
       <div className="screen">
-
         <span>
-          0
+          {calculatorState.total}
+          {' '}
+          {calculatorState.operation}
+          {' '}
+          {calculatorState.next}
         </span>
-        0
       </div>
-      <ButtonDiv />
+      <ButtonDiv onButtonClick={handleClick} />
     </div>
   );
 }
+
 export default Calculator;
