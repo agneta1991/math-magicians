@@ -18,7 +18,11 @@ function Calculator() {
     <div className="calc">
       <div className="screen">
         <span>
-          {calculatorState.next || calculatorState.total || '0'}
+          {calculatorState.total}
+          {' '}
+          {calculatorState.operation}
+          {' '}
+          {calculatorState.next}
         </span>
       </div>
       <ButtonDiv onButtonClick={handleClick} />
