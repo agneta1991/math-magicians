@@ -45,7 +45,7 @@ function FetchedApi() {
       {loading ? <p>Loading...</p> : null}
       {errorMsg && <p>{errorMsg}</p>}
       {quotes.map((individualQuote) => (
-        <p key={individualQuote.category}>
+        <p key={individualQuote.author}>
           {individualQuote.quote}
           {' '}
           {'  -'}
