@@ -1,10 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .calc {
   border: 1px solid black;
   width: 30vw;
   height: 40vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
 }
 
 .screen {
@@ -41,4 +49,16 @@ button {
 .btnDiv > *:nth-child(4n+4),
 .equal {
   background-color: orange;
+}
+
+.quoteDiv {
+  border: 1px solid grey;
+  width: 50vw;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px black;
+}
+
+.quoteDiv > p {
+  text-align: center;
 }
