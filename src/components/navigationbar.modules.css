@@ -1,6 +1,6 @@
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: bisque;
+  color: #ffe4c4;
   ;
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,9 @@ nav {
   width: 100vw;
   box-sizing: border-box;
   height: 7vh;
-  background-color: brown;
+  background-color: darkblue;
+  position: fixed;
+  top: 0;
 }
 
 h1 {
