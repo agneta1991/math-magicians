@@ -18,9 +18,8 @@ function App() {
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          // background:
-          // 'radial-gradient(circle, rgba(183,183,181,1) 0%, rgba(255,228,196,1) 100%)',
           height: '100vh',
+          width: '100vw',
         }}
       >
         <NavigationBar />

@@ -15,7 +15,7 @@ function Calculator() {
   };
 
   return (
-    <>
+    <div className="calculatorPage">
       <h1>Let&apos;s do some math!</h1>
       <div className="calc">
         <div className="screen">
@@ -29,7 +29,7 @@ function Calculator() {
         </div>
         <ButtonDiv onButtonClick={handleClick} />
       </div>
-    </>
+    </div>
   );
 }
 

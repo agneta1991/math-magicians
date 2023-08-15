@@ -6,24 +6,25 @@ function HomePage() {
         width: '70%',
         margin: '1.5rem',
         fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
-        border: '1px solid red',
+        border: '1px solid black',
         height: 'auto',
         padding: '2rem',
-        backgroundColor: 'rgba(0, 0, 0, 0.45)',
+        backgroundColor: 'rgba(0, 0, 0, 0.55)',
         color: 'white',
-        fontStyle: 'bolder',
+        fontWeight: 'bolder',
         fontSize: '1.5rem',
-        textShadow: '2px 2px 2px black',
+        textShadow: '4px 2px 2px black',
+        boxShadow: '1px 1px 20px black',
       }}
     >
-      <h3
+      <h2
         style={{
           textAlign: 'center',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
         }}
       >
         Welcome to our page!
-      </h3>
+      </h2>
       <p>
         Success is a journey woven from dedication, much like our website&apos;s
         unfolding pages. The
