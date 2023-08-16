@@ -76,7 +76,10 @@ function ButtonDiv({ onButtonClick }) {
 }
 
 ButtonDiv.propTypes = {
-  onButtonClick: PropTypes.func.isRequired,
+  onButtonClick: PropTypes.func,
 };
 
+ButtonDiv.defaultProps = {
+  onButtonClick: null,
+};
 export default ButtonDiv;
