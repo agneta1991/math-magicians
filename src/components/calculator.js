@@ -15,17 +15,20 @@ function Calculator() {
   };
 
   return (
-    <div className="calc">
-      <div className="screen">
-        <span>
-          {calculatorState.total}
-          {' '}
-          {calculatorState.operation}
-          {' '}
-          {calculatorState.next}
-        </span>
+    <div className="calculatorPage">
+      <h1>Let&apos;s do some math!</h1>
+      <div className="calc">
+        <div className="screen">
+          <span>
+            {calculatorState.total}
+            {' '}
+            {calculatorState.operation}
+            {' '}
+            {calculatorState.next}
+          </span>
+        </div>
+        <ButtonDiv onButtonClick={handleClick} />
       </div>
-      <ButtonDiv onButtonClick={handleClick} />
     </div>
   );
 }

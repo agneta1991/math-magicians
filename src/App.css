@@ -3,62 +3,109 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.calc {
-  border: 1px solid black;
-  width: 30vw;
-  height: 40vh;
+.calculatorPage {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70vh;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-shadow: 4px 2px 2px black;
+  box-shadow: 1px 1px 20px black;
+  border: 1px solid black;
 }
 
 .screen {
-  background-color: grey;
-  color: rgb(225, 225, 225);
-  padding: 0.7rem;
-  height: 2.5rem;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 1.2rem;
-  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.562);
+  color: rgba(255, 255, 255, 0.75);
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  width: 300px;
+  height: 100px;
+  border: 4px solid black;
+  border-radius: 10px;
 }
 
-.btnDiv {
-  width: 100%;
-  height: 100%;
+.calc {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  border: 7px solid black;
+  border-radius: 2rem;
+  width: 25rem;
+  height: 37rem;
+  background-color: rgba(14, 12, 12, 0.623);
+  padding: 1rem;
 }
 
 button {
-  border: 1px solid grey;
-  background-color: rgb(212, 212, 212);
-  color: rgb(39, 60, 60);
+  background-color: rgba(0, 0, 0, 0.562);
+  color: rgba(255, 255, 255, 0.75);
+  width: 5rem;
+  height: 4rem;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.568);
 }
 
-.zero {
+button:hover {
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.247);
+}
+
+.btnDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 0.5rem;
+  height: 25rem;
+}
+
+.display {
+  background-color: rgba(0, 0, 0, 0.562);
+  color: rgba(255, 255, 255, 0.75);
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  width: 25rem;
+  height: 17rem;
+  border: 4px solid black;
+  border-radius: 1.7rem;
+}
+
+#zero {
   grid-column-start: 1;
   grid-column-end: 3;
-}
-
-.btnDiv > *:nth-child(4n+4),
-.equal {
-  background-color: orange;
+  width: auto;
 }
 
 .quoteDiv {
-  border: 1px solid grey;
-  width: 50vw;
-  margin-top: 1rem;
-  padding: 1rem;
-  box-shadow: 1px 1px 10px black;
+  width: 70%;
+  margin: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-shadow: 4px 2px 2px black;
+  box-shadow: 1px 1px 20px black;
+  border: 1px solid black;
 }
 
 .quoteDiv > p {
   text-align: center;
+  font-size: 2rem;
 }
