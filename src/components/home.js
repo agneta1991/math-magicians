@@ -5,6 +5,7 @@ function HomePage() {
       style={{
         width: '70%',
         margin: '1.5rem',
+        marginTop: '20rem',
         fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
         border: '1px solid black',
         height: 'auto',

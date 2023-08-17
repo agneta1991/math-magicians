@@ -53,7 +53,7 @@
 
 <br>
 
-- [Click me to view deployed project!](this project will be deployed in near future)
+- [Click me to view deployed project!](https://math-magicians-agneta.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
