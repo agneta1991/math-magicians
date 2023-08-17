@@ -12,8 +12,9 @@
   align-items: center;
   width: 70%;
   margin: 1.5rem;
+  margin-top: 20rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 70vh;
+  height: auto;
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.55);
   color: white;
@@ -48,6 +49,7 @@
   height: 37rem;
   background-color: rgba(14, 12, 12, 0.623);
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 button {
